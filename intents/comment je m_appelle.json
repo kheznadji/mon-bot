@@ -1,0 +1,39 @@
+{
+  "userSays": [
+    {
+      "id": "cfe493a6-c9e4-4ab1-af2d-a6e5d65bd3fc",
+      "data": [
+        {
+          "text": "comment je m\u0027appelle ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c6333359-f196-4aa7-b39c-0267bba28f01",
+  "name": "comment je m\u0027appelle",
+  "auto": true,
+  "contexts": [
+    "anis"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "anis"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

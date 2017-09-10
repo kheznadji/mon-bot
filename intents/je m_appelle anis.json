@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "43139b8d-4fa5-4843-8088-d67f326df026",
+      "data": [
+        {
+          "text": "je m\u0027appelle anis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "174b6a90-39aa-4c98-82a7-cd7d3ca63ad6",
+  "name": "je m\u0027appelle anis",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "anis",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ok, tu t\u0027appelle anis"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
